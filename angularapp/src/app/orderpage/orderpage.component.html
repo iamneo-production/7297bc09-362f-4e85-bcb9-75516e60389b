@@ -1,0 +1,47 @@
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+          
+          <th scope="col">Id</th>
+          <th scope="col">Name</th>
+          <th scope="col">Description</th>
+          <th scope="col">Date</th>
+          <th scope="col">Price</th>
+          <th scope="col">Address</th>
+          <th scope="col">Phone</th>
+        <th scope="col">Email</th>
+        <th scope="col">quantity</th>
+        <th scope="col">Operations</th>
+        
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let o of order">
+                
+               
+                <td>{{o.orderId}}</td><br>
+                <td>{{o.orderName}}</td><br>
+                <td>{{o.orderDescription}}</td><br>
+                <td>{{o.orderDate}}</td><br>
+                <td>{{o.orderPrice}}</td><br>
+                <td>{{o.orderAddress}}</td><br>
+                <td>{{o.orderPhone}}</td>
+                <td>{{o.orderEmail}}</td>
+                <td>{{o.quantity}}</td>
+                <td scope="row"><button (click)=deleteorder(o.orderId) class="fa fa-trash" style="font-size:20px;color:red;">Delete</button>
+                </td>
+                    
+               
+            </tr>
+        </tbody>
+    </table>
+    
+
+    
+    
+    
+    
+    
+    
+        

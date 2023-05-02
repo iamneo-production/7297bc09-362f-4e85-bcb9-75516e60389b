@@ -1,0 +1,20 @@
+.inp{
+    padding-top: 20px;
+    text-align: center;
+    padding: 50px;
+    box-sizing: content-box;
+    border: 2px solid gray;
+    border-radius: 30px;
+    width:200px;
+    height: 300px;
+}
+.common{
+    padding-top: 50px;
+    padding-left:500px;
+}
+body{
+    background: url("https://t3.ftcdn.net/jpg/03/45/63/88/360_F_345638885_EBRKmI2LVfJcQGWj0Mtmg9R4HQd1RODV.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+      
+}

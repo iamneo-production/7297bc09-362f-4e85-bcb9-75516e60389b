@@ -1,0 +1,65 @@
+   
+   
+    .add{
+        
+        margin-top: 10px;
+        
+        
+        border: 2px solid lightgrey;
+        box-sizing: content-box;
+        border-radius: 80px;
+        width: 400px;
+        height: 500px;
+        text-align: center;
+        background-color:lightcoral
+        }
+    
+    .display{
+        display: inline-flex;
+         background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiJkW_J17KI6C7Biv1fnmuJ0IngL5vavvMBg&usqp=CAU)  ;
+    padding: 30px;
+    
+}
+    
+table{
+        height: 5px;
+        text-align: center;
+        background-color: aliceblue;
+     }
+     .tab{
+        padding-top: 10px;
+        padding-right: 50px;
+        
+     }
+    
+     .add1{
+        
+        
+        margin-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 2px solid lightgrey;
+        box-sizing: content-box;
+        border-radius: 80px;
+        width: 200px;
+        height: 320px;
+        text-align: center;
+        background-color:lightcoral
+        }
+        button{
+            background-color: azure;
+            height: 40px;
+            border-radius: 10px;
+            width:100 px;
+        }
+       
+    h1{
+        text-align: center;
+        
+    }
+      
+       
+        
+    
+     
+       

@@ -1,0 +1,64 @@
+    <div class="add">
+    
+            <h1 style="color: aliceblue;">Place Order</h1>
+    
+            <br>
+    
+<form #userForm ="ngForm" (ngSubmit)="adduserorder(userForm.value)">
+<input type="text" ngModel name="orderName" placeholder=" order name" value="" required><br><br>
+<input type="text" ngModel name="orderDescription" placeholder=" order Details" required><br><br>
+<input type="text" ngModel name="orderDate" placeholder="date" required><br><br>
+<input type="text" ngModel name="orderAddress" placeholder="Enter address" required><br><br>
+<input type="text" ngModel name="orderPhone" placeholder="phonenumber" required><br><br>
+<input type="text" ngModel name="orderPrice" placeholder="price" required><br><br>
+<input type="text" ngModel name="quantity" placeholder="Enter Quantity" required><br><br>
+<input type="text" ngModel name="orderEmail" placeholder="Email" required><br><br>
+    
+            <button (click)="add()">Add Order</button>
+    
+    
+        </form>
+    
+        </div>
+    
+    
+    <table class="table table-striped">
+    
+          <thead>
+        
+            <tr>
+        
+              <th scope="col">Select theme</th>
+        
+              <th scope="col">ThemeName</th>
+        
+              <th scope="col">themePrice</th>
+        
+              <th scope="col">themeDetails</th>
+        
+             
+        
+            </tr>
+        
+          </thead>
+        
+          <tbody>
+        
+            <tr *ngFor="let e of theme">
+        
+              <td><input type="checkbox"></td>
+        
+              <td>{{e.themeName}}</td>
+        
+              <td>{{e.themePrice}}</td>
+        
+              <td>{{e.themeDetails}}</td>
+        
+        
+            </tr>
+        
+          </tbody>
+        
+        </table>
+        <button  click="adduserorder()" class="form-button" style="float:right">Confirm Order</button>
+    

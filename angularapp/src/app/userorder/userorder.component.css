@@ -1,0 +1,90 @@
+.disp{
+
+    padding: 100px;
+    
+    }
+    
+    input{
+    background-color: whitesmoke;
+    
+    border-radius: 10px;
+    
+    width:200px;
+    
+    height: 30px;
+    
+     font-size: 20px;
+    
+    }
+    
+    .disp{
+    
+    text-align: center;
+    
+    display: inline-flex;
+    
+    
+    
+    /* flex-wrap: wrap; */
+    
+    }
+    
+    .ajay{
+    
+    position: relative;
+    
+    /* float: right; */
+    
+    }
+    
+    label{
+    
+    font-size: 20px;
+    
+     text-align: left;
+    
+    }
+    
+    /* body{
+    
+        background: url();
+    
+    } */
+    
+    .items li{
+    
+    list-style-type: none;
+    
+    }
+    
+    button{
+    
+    border: 2px solid grey;
+    
+    border-radius: 20px;
+    
+     background-color: black;
+    
+     color: aliceblue;
+    
+     padding: 20px;
+    
+    
+    
+    }
+    
+    body{
+    
+    
+    text-align: center;
+    
+    }
+    .add{
+        background: url("https://ae01.alicdn.com/kf/HTB1Y0mBhInI8KJjSspeq6AwIpXal/New-CURREN-Top-Brand-Luxury-Mens-Watches-Male-Clocks-Date-Sport-Military-Clock-Leather-Strap-Quartz.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: fixed;
+        text-align: center;
+        border: 2px solid grey;
+        background-color: rgb(237, 245, 127);
+    }

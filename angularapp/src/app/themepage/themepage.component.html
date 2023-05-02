@@ -1,0 +1,106 @@
+
+<!-- ---------------------------------\ Get  \------------------------------------------ -->
+<h1>Wrist Watch</h1>
+   <div class="display">
+
+        <div class="tab">
+    
+    <table class="table table-striped">
+    
+      <thead>
+    
+        <tr>
+    
+          <th scope="col">ThemeId</th>
+    
+          <th scope="col">ThemeName</th>
+    
+          <th scope="col">themePrice</th>
+    
+          <th scope="col">themeDetails</th>
+    
+          <th scope="col">operations</th>
+    
+        </tr>
+    
+      </thead>
+    
+      <tbody>
+    
+        <tr *ngFor="let e of theme">
+    
+          <td>{{e.themeId}}</td>
+    
+          <td>{{e.themeName}}</td>
+    
+          <td>{{e.themePrice}}</td>
+    
+          <td>{{e.themeDetails}}</td>
+    
+          <td><button (click)=deletetheme(e.themeId) class="fa fa-trash" style="font-size:20px;color:red;">Delete</button>
+    
+            <!-- <a routerLink="/update/{{e.themeId}}"> -->
+    
+            <!-- <i (click)="edit(e.themeId)" class="fa fa-edit" style="font-size:20px;color:blue;"></i> -->
+    
+          <!-- </a> -->
+    
+           
+    
+          </td>
+    
+         
+    
+        </tr>
+    
+      </tbody>
+    
+    </table>
+    
+    </div>
+    
+    
+    
+    
+    
+    
+        <!-- ---------------------------------\  post  \------------------------------------------ -->
+    
+    
+    
+    
+        <div class="add">
+    
+            <p>Add Theme</p>
+    
+            <br>
+    
+            <form #userForm ="ngForm" (ngSubmit)="addtheme(userForm.value)">
+    
+              <input type="text" ngModel name="themeId" placeholder="only required for update" required><br><br>
+    
+            <input type="text" ngModel name="themeName" placeholder="Enter the theme name" required><br><br>
+    
+            <input type="text" ngModel name="themePrice" placeholder="Enter theme price" required><br><br>
+    
+            <input type="text" ngModel name="themeDetails" placeholder="Enter the Description" required><br><br>
+    
+    
+            <button>Add Theme</button>
+    
+                <button (click)="update()">update</button>
+    
+       
+    
+        </form>
+    
+        </div>
+    
+       
+    
+    
+    
+    
+    
+    
+   

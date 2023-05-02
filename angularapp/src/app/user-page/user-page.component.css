@@ -1,0 +1,13 @@
+ul li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    
+}
+
+.home{
+    display: inline-flex;
+    padding-right: 900px;
+     padding: 30px; 
+}
+
